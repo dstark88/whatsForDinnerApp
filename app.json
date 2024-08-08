@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "whatsForDinnerApp",
+    "name": "What's For Dinner",
     "slug": "whatsForDinnerApp",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -18,16 +18,24 @@
       "**/*"
     ],
     "ios": {
+      "buildNumber": "1.0.0",
       "supportsTablet": true
     },
     "android": {
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.dstark88.whatsForDinnerApp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "63a75604-d448-40d5-93e3-2dbaa08e01bd"
+      }
     }
   }
 }
