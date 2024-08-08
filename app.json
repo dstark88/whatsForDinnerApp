@@ -19,7 +19,8 @@
     ],
     "ios": {
       "buildNumber": "1.0.0",
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.dstark88.whatsForDinnerApp"
     },
     "android": {
       "versionCode": 1,
